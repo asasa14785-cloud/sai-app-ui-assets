@@ -9,6 +9,7 @@
 | `public/pack/01_store_screenshots/` | لقطات شاشة المتجر (هاتف + تابلت) |
 | `public/pack/02_app_screens_cropped/` | شاشات التطبيق المقصوصة |
 | `public/pack/03_brand_and_icons/` | الشعار، أيقونة التطبيق، أيقونات المشغّل، ورسومات المتجر |
+| `الفديو المرجعي/` | الفيديو المرجعي لحركة الواجهة (`WhatsApp Video 2026-11-20 at 11.35.50 AM.mp4`) |
 | `public/downloads/` | سكربتات مساعدة (`1_install_xapk.sh`, `2_record_flows.sh`) |
 | `src/` | كود تطبيق المعاينة (React + TypeScript) |
 | `src/data/` | بيانات التصميم: `design_tokens.json`, `manifest.json`, `screens_flow_and_transitions.json` |
