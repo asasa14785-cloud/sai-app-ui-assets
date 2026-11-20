@@ -1,0 +1,208 @@
+{
+ "01_store_screenshots": [
+  {
+   "src": "pack/01_store_screenshots/phone/phone_01.png",
+   "name": "phone_01.png",
+   "kb": 413
+  },
+  {
+   "src": "pack/01_store_screenshots/phone/phone_02.png",
+   "name": "phone_02.png",
+   "kb": 424
+  },
+  {
+   "src": "pack/01_store_screenshots/phone/phone_03.png",
+   "name": "phone_03.png",
+   "kb": 479
+  },
+  {
+   "src": "pack/01_store_screenshots/phone/phone_04.png",
+   "name": "phone_04.png",
+   "kb": 506
+  },
+  {
+   "src": "pack/01_store_screenshots/phone/phone_05.png",
+   "name": "phone_05.png",
+   "kb": 607
+  },
+  {
+   "src": "pack/01_store_screenshots/phone/phone_06.png",
+   "name": "phone_06.png",
+   "kb": 589
+  },
+  {
+   "src": "pack/01_store_screenshots/phone/phone_07.png",
+   "name": "phone_07.png",
+   "kb": 572
+  },
+  {
+   "src": "pack/01_store_screenshots/phone/phone_08.png",
+   "name": "phone_08.png",
+   "kb": 308
+  },
+  {
+   "src": "pack/01_store_screenshots/tablet/tablet_09.png",
+   "name": "tablet_09.png",
+   "kb": 274
+  },
+  {
+   "src": "pack/01_store_screenshots/tablet/tablet_10.png",
+   "name": "tablet_10.png",
+   "kb": 563
+  },
+  {
+   "src": "pack/01_store_screenshots/tablet/tablet_11.png",
+   "name": "tablet_11.png",
+   "kb": 308
+  },
+  {
+   "src": "pack/01_store_screenshots/tablet/tablet_12.png",
+   "name": "tablet_12.png",
+   "kb": 536
+  }
+ ],
+ "02_app_screens_cropped": [
+  {
+   "src": "pack/02_app_screens_cropped/phone_01_screen_630x1204.png",
+   "name": "phone_01_screen_630x1204.png",
+   "kb": 163
+  },
+  {
+   "src": "pack/02_app_screens_cropped/phone_02_screen_630x1231.png",
+   "name": "phone_02_screen_630x1231.png",
+   "kb": 170
+  },
+  {
+   "src": "pack/02_app_screens_cropped/phone_03_screen_630x1378.png",
+   "name": "phone_03_screen_630x1378.png",
+   "kb": 222
+  },
+  {
+   "src": "pack/02_app_screens_cropped/phone_04_screen_630x1231.png",
+   "name": "phone_04_screen_630x1231.png",
+   "kb": 216
+  },
+  {
+   "src": "pack/02_app_screens_cropped/phone_05_screen_621x1400.png",
+   "name": "phone_05_screen_621x1400.png",
+   "kb": 277
+  },
+  {
+   "src": "pack/02_app_screens_cropped/phone_06_screen_532x1320_PARTIAL.png",
+   "name": "phone_06_screen_532x1320_PARTIAL.png",
+   "kb": 210
+  },
+  {
+   "src": "pack/02_app_screens_cropped/phone_07_screen_524x1320_PARTIAL.png",
+   "name": "phone_07_screen_524x1320_PARTIAL.png",
+   "kb": 150
+  },
+  {
+   "src": "pack/02_app_screens_cropped/tablet_09_screen_1356x1538.png",
+   "name": "tablet_09_screen_1356x1538.png",
+   "kb": 166
+  },
+  {
+   "src": "pack/02_app_screens_cropped/tablet_11_screen_1300x1706.png",
+   "name": "tablet_11_screen_1300x1706.png",
+   "kb": 141
+  }
+ ],
+ "03_brand_and_icons": [
+  {
+   "src": "pack/03_brand_and_icons/in_app_logo_ioswithout.png",
+   "name": "in_app_logo_ioswithout.png",
+   "kb": 7
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_foreground_hdpi.png",
+   "name": "launcher_ic_launcher_foreground_hdpi.png",
+   "kb": 8
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_foreground_mdpi.png",
+   "name": "launcher_ic_launcher_foreground_mdpi.png",
+   "kb": 5
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_foreground_xhdpi.png",
+   "name": "launcher_ic_launcher_foreground_xhdpi.png",
+   "kb": 12
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_foreground_xxhdpi.png",
+   "name": "launcher_ic_launcher_foreground_xxhdpi.png",
+   "kb": 19
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_foreground_xxxhdpi.png",
+   "name": "launcher_ic_launcher_foreground_xxxhdpi.png",
+   "kb": 26
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_hdpi.png",
+   "name": "launcher_ic_launcher_hdpi.png",
+   "kb": 3
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_mdpi.png",
+   "name": "launcher_ic_launcher_mdpi.png",
+   "kb": 2
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_round_hdpi.png",
+   "name": "launcher_ic_launcher_round_hdpi.png",
+   "kb": 4
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_round_mdpi.png",
+   "name": "launcher_ic_launcher_round_mdpi.png",
+   "kb": 2
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_round_xhdpi.png",
+   "name": "launcher_ic_launcher_round_xhdpi.png",
+   "kb": 5
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_round_xxhdpi.png",
+   "name": "launcher_ic_launcher_round_xxhdpi.png",
+   "kb": 9
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_round_xxxhdpi.png",
+   "name": "launcher_ic_launcher_round_xxxhdpi.png",
+   "kb": 12
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_xhdpi.png",
+   "name": "launcher_ic_launcher_xhdpi.png",
+   "kb": 4
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_xxhdpi.png",
+   "name": "launcher_ic_launcher_xxhdpi.png",
+   "kb": 7
+  },
+  {
+   "src": "pack/03_brand_and_icons/launcher_ic_launcher_xxxhdpi.png",
+   "name": "launcher_ic_launcher_xxxhdpi.png",
+   "kb": 9
+  },
+  {
+   "src": "pack/03_brand_and_icons/play_feature_graphic_1024x500.png",
+   "name": "play_feature_graphic_1024x500.png",
+   "kb": 106
+  },
+  {
+   "src": "pack/03_brand_and_icons/play_store_icon_512.png",
+   "name": "play_store_icon_512.png",
+   "kb": 26
+  },
+  {
+   "src": "pack/03_brand_and_icons/xapk_icon.png",
+   "name": "xapk_icon.png",
+   "kb": 13
+  }
+ ]
+}

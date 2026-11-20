@@ -1,0 +1,492 @@
+{
+ "note": "مستخرجة من index.android.bundle (Hermes) للإصدار 1.0.4 - تصميم النسخة القديمة (Expo/React Native)",
+ "colors": {
+  "text": "#11181C",
+  "background": "#FFFFFF",
+  "tint": "#0A7EA4",
+  "icon/secondary_text": "#687076",
+  "border": "#E6E8EB",
+  "gradient_screen": {
+   "from": "#F8FAFB",
+   "to": "#E6F3F7",
+   "direction": "top→bottom (start 0,0 / end 0,1)"
+  },
+  "accent_surface": "#EBF5F8",
+  "pro_gold": "#FFD700",
+  "google_button": "#11181C",
+  "overlay": "rgba(0,0,0,0.5)",
+  "offline_banner": {
+   "bg": "#FFF3CD",
+   "border": "#FFEAA7"
+  },
+  "status": {
+   "on_track": "#10B981",
+   "budget_met": "#F59E0B",
+   "over_budget": "#EF4444"
+  },
+  "pro_card_gradient": [
+   "#8B5A3C",
+   "#D2B48C"
+  ],
+  "danger": "#FF6B6B",
+  "warning": "#F59E0B",
+  "stories_palette": [
+   "#4ECDC4",
+   "#FF6B6B",
+   "#FFA726",
+   "#FFD700",
+   "#FFFFFF"
+  ],
+  "story_text_alpha": [
+   "rgba(255,255,255,0.6)",
+   "rgba(255,255,255,0.5)",
+   "rgba(255,255,255,0.3)"
+  ]
+ },
+ "typography": {
+  "family": "System default (Roboto on Android)",
+  "title": {
+   "size": 32,
+   "weight": "bold",
+   "lineHeight": 38
+  },
+  "subtitle": {
+   "size": 18
+  },
+  "button": {
+   "size": 16,
+   "weight": "600"
+  },
+  "body": {
+   "size": 16,
+   "weight": "500"
+  },
+  "small": {
+   "size": 13
+  },
+  "greeting": {
+   "size": 16,
+   "weight": "700"
+  },
+  "expense_amount": {
+   "size": 14,
+   "weight": "700"
+  }
+ },
+ "shape": {
+  "app_icon_wrapper": {
+   "size": 120,
+   "radius": 30,
+   "shadow": "0 8 16 rgba(0,0,0,.12)",
+   "border": "1px #E6E8EB"
+  },
+  "auth_button": {
+   "height": 54,
+   "radius": 27
+  },
+  "example_pill": {
+   "radius": 25
+  },
+  "list_sheet": {
+   "radius_top": 24
+  },
+  "loading_card": {
+   "radius": 20,
+   "padding": 32,
+   "minWidth": 200
+  },
+  "category_chip_icon": {
+   "size": 36,
+   "radius": 8,
+   "bg": "#EBF5F8"
+  }
+ },
+ "icon_font": "Ionicons (fonts/Ionicons.ttf) — mic, arrow-back, mail-outline, lock-closed-outline, eye/eye-off, logo-google + category icons",
+ "categories": [
+  {
+   "id": "1",
+   "name": "Food",
+   "ionicon": "fast-food"
+  },
+  {
+   "id": "2",
+   "name": "Transportation",
+   "ionicon": "car"
+  },
+  {
+   "id": "3",
+   "name": "Shopping",
+   "ionicon": "cart"
+  },
+  {
+   "id": "4",
+   "name": "Utilities",
+   "ionicon": "flash"
+  },
+  {
+   "id": "5",
+   "name": "Entertainment",
+   "ionicon": "film"
+  },
+  {
+   "id": "6",
+   "name": "Health",
+   "ionicon": "medical"
+  },
+  {
+   "id": "7",
+   "name": "Fitness",
+   "ionicon": "fitness"
+  },
+  {
+   "id": "8",
+   "name": "Education",
+   "ionicon": "school"
+  },
+  {
+   "id": "9",
+   "name": "Travel",
+   "ionicon": "airplane"
+  },
+  {
+   "id": "10",
+   "name": "Personal Care",
+   "ionicon": "cut"
+  },
+  {
+   "id": "11",
+   "name": "Home",
+   "ionicon": "home"
+  },
+  {
+   "id": "12",
+   "name": "Work",
+   "ionicon": "briefcase"
+  },
+  {
+   "id": "13",
+   "name": "Other",
+   "ionicon": "ellipsis-horizontal"
+  }
+ ],
+ "currencies": [
+  {
+   "code": "USD",
+   "name": "US Dollar",
+   "symbol": "$",
+   "flag": "🇺🇸"
+  },
+  {
+   "code": "EUR",
+   "name": "Euro",
+   "symbol": "€",
+   "flag": "🇪🇺"
+  },
+  {
+   "code": "EGP",
+   "name": "Egyptian Pound",
+   "symbol": "EGP",
+   "flag": "🇪🇬"
+  },
+  {
+   "code": "GBP",
+   "name": "British Pound",
+   "symbol": "£",
+   "flag": "🇬🇧"
+  },
+  {
+   "code": "AED",
+   "name": "UAE Dirham",
+   "symbol": "AED",
+   "flag": "🇦🇪"
+  },
+  {
+   "code": "SAR",
+   "name": "Saudi Riyal",
+   "symbol": "SAR",
+   "flag": "🇸🇦"
+  },
+  {
+   "code": "JPY",
+   "name": "Japanese Yen",
+   "symbol": "¥",
+   "flag": "🇯🇵"
+  },
+  {
+   "code": "CNY",
+   "name": "Chinese Yuan",
+   "symbol": "¥",
+   "flag": "🇨🇳"
+  },
+  {
+   "code": "INR",
+   "name": "Indian Rupee",
+   "symbol": "₹",
+   "flag": "🇮🇳"
+  },
+  {
+   "code": "CAD",
+   "name": "Canadian Dollar",
+   "symbol": "C$",
+   "flag": "🇨🇦"
+  },
+  {
+   "code": "AUD",
+   "name": "Australian Dollar",
+   "symbol": "A$",
+   "flag": "🇦🇺"
+  },
+  {
+   "code": "CHF",
+   "name": "Swiss Franc",
+   "symbol": "CHF",
+   "flag": "🇨🇭"
+  },
+  {
+   "code": "KWD",
+   "name": "Kuwaiti Dinar",
+   "symbol": "KWD",
+   "flag": "🇰🇼"
+  },
+  {
+   "code": "QAR",
+   "name": "Qatari Riyal",
+   "symbol": "QAR",
+   "flag": "🇶🇦"
+  },
+  {
+   "code": "BHD",
+   "name": "Bahraini Dinar",
+   "symbol": "BHD",
+   "flag": "🇧🇭"
+  },
+  {
+   "code": "IQD",
+   "name": "Iraqi Dinar",
+   "symbol": "IQD",
+   "flag": "🇮🇶"
+  },
+  {
+   "code": "KRW",
+   "name": "South Korean Won",
+   "symbol": "₩",
+   "flag": "🇰🇷"
+  },
+  {
+   "code": "SGD",
+   "name": "Singapore Dollar",
+   "symbol": "S$",
+   "flag": "🇸🇬"
+  },
+  {
+   "code": "HKD",
+   "name": "Hong Kong Dollar",
+   "symbol": "HK$",
+   "flag": "🇭🇰"
+  },
+  {
+   "code": "NZD",
+   "name": "New Zealand Dollar",
+   "symbol": "NZ$",
+   "flag": "🇳🇿"
+  },
+  {
+   "code": "SEK",
+   "name": "Swedish Krona",
+   "symbol": "kr",
+   "flag": "🇸🇪"
+  },
+  {
+   "code": "NOK",
+   "name": "Norwegian Krone",
+   "symbol": "kr",
+   "flag": "🇳🇴"
+  },
+  {
+   "code": "DKK",
+   "name": "Danish Krone",
+   "symbol": "kr",
+   "flag": "🇩🇰"
+  },
+  {
+   "code": "PLN",
+   "name": "Polish Zloty",
+   "symbol": "zł",
+   "flag": "🇵🇱"
+  },
+  {
+   "code": "CZK",
+   "name": "Czech Koruna",
+   "symbol": "Kč",
+   "flag": "🇨🇿"
+  },
+  {
+   "code": "HUF",
+   "name": "Hungarian Forint",
+   "symbol": "Ft",
+   "flag": "🇭🇺"
+  },
+  {
+   "code": "RUB",
+   "name": "Russian Ruble",
+   "symbol": "₽",
+   "flag": "🇷🇺"
+  },
+  {
+   "code": "TRY",
+   "name": "Turkish Lira",
+   "symbol": "₺",
+   "flag": "🇹🇷"
+  },
+  {
+   "code": "BRL",
+   "name": "Brazilian Real",
+   "symbol": "R$",
+   "flag": "🇧🇷"
+  },
+  {
+   "code": "MXN",
+   "name": "Mexican Peso",
+   "symbol": "$",
+   "flag": "🇲🇽"
+  },
+  {
+   "code": "ARS",
+   "name": "Argentine Peso",
+   "symbol": "$",
+   "flag": "🇦🇷"
+  },
+  {
+   "code": "CLP",
+   "name": "Chilean Peso",
+   "symbol": "$",
+   "flag": "🇨🇱"
+  },
+  {
+   "code": "COP",
+   "name": "Colombian Peso",
+   "symbol": "$",
+   "flag": "🇨🇴"
+  },
+  {
+   "code": "PEN",
+   "name": "Peruvian Sol",
+   "symbol": "S/",
+   "flag": "🇵🇪"
+  },
+  {
+   "code": "ZAR",
+   "name": "South African Rand",
+   "symbol": "R",
+   "flag": "🇿🇦"
+  },
+  {
+   "code": "NGN",
+   "name": "Nigerian Naira",
+   "symbol": "₦",
+   "flag": "🇳🇬"
+  },
+  {
+   "code": "KES",
+   "name": "Kenyan Shilling",
+   "symbol": "KSh",
+   "flag": "🇰🇪"
+  },
+  {
+   "code": "GHS",
+   "name": "Ghanaian Cedi",
+   "symbol": "₵",
+   "flag": "🇬🇭"
+  },
+  {
+   "code": "MAD",
+   "name": "Moroccan Dirham",
+   "symbol": "MAD",
+   "flag": "🇲🇦"
+  },
+  {
+   "code": "TND",
+   "name": "Tunisian Dinar",
+   "symbol": "TND",
+   "flag": "🇹🇳"
+  },
+  {
+   "code": "JOD",
+   "name": "Jordanian Dinar",
+   "symbol": "JOD",
+   "flag": "🇯🇴"
+  },
+  {
+   "code": "LBP",
+   "name": "Lebanese Pound",
+   "symbol": "LL",
+   "flag": "🇱🇧"
+  },
+  {
+   "code": "THB",
+   "name": "Thai Baht",
+   "symbol": "฿",
+   "flag": "🇹🇭"
+  },
+  {
+   "code": "MYR",
+   "name": "Malaysian Ringgit",
+   "symbol": "RM",
+   "flag": "🇲🇾"
+  },
+  {
+   "code": "IDR",
+   "name": "Indonesian Rupiah",
+   "symbol": "Rp",
+   "flag": "🇮🇩"
+  },
+  {
+   "code": "PHP",
+   "name": "Philippine Peso",
+   "symbol": "₱",
+   "flag": "🇵🇭"
+  },
+  {
+   "code": "VND",
+   "name": "Vietnamese Dong",
+   "symbol": "₫",
+   "flag": "🇻🇳"
+  },
+  {
+   "code": "PKR",
+   "name": "Pakistani Rupee",
+   "symbol": "₨",
+   "flag": "🇵🇰"
+  },
+  {
+   "code": "BDT",
+   "name": "Bangladeshi Taka",
+   "symbol": "৳",
+   "flag": "🇧🇩"
+  },
+  {
+   "code": "LKR",
+   "name": "Sri Lankan Rupee",
+   "symbol": "Rs",
+   "flag": "🇱🇰"
+  },
+  {
+   "code": "UAH",
+   "name": "Ukrainian Hryvnia",
+   "symbol": "₴",
+   "flag": "🇺🇦"
+  },
+  {
+   "code": "YER",
+   "name": "Yemeni Rial",
+   "symbol": "﷼",
+   "flag": "🇾🇪"
+  },
+  {
+   "code": "MRU",
+   "name": "Mauritanian Ouguiya",
+   "symbol": "MRU",
+   "flag": "🇲🇷"
+  }
+ ]
+}

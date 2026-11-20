@@ -1,0 +1,306 @@
+{
+ "app": "Say (com.moments.expenses) v1.0.4 (versionCode 16)",
+ "stack": "Expo SDK / React Native + Hermes + expo-router (typedRoutes)",
+ "screens": [
+  {
+   "id": "splash",
+   "route": null,
+   "title": "Splash",
+   "notes": "expo-splash-screen: أيقونة 200px على خلفية بيضاء (resizeMode contain)"
+  },
+  {
+   "id": "onboarding",
+   "route": "/(public)/onboarding",
+   "file": "OnboardingScreen",
+   "layout": "gradient #F8FAFB→#E6F3F7",
+   "copy": [
+    "Track expenses\\nwith your voice",
+    "Coffee $5, lunch $15, movie $10",
+    "Continue with Google",
+    "Continue with Email",
+    "By continuing, you agree to our Terms and Privacy Policy"
+   ],
+   "states": [
+    "default",
+    "loading_overlay: 'Authenticating...' / 'Setting up your account' (Modal fade)"
+   ],
+   "next": [
+    "signin",
+    "currency-selection/home"
+   ]
+  },
+  {
+   "id": "signin",
+   "route": "/(public)/signin",
+   "file": "SignInScreen",
+   "copy": [
+    "Welcome Back",
+    "Email Address",
+    "Password",
+    "Forgot Password?",
+    "Sign In / Signing In...",
+    "Don't have an account? Sign Up"
+   ],
+   "next": [
+    "signup",
+    "verify-email(recovery)",
+    "home"
+   ]
+  },
+  {
+   "id": "signup",
+   "route": "/(public)/signup",
+   "file": "SignUpScreen",
+   "copy": [
+    "Create Account",
+    "First Name",
+    "Last Name",
+    "Email Address",
+    "Password",
+    "Creating Account...",
+    "Already have an account? Sign In"
+   ],
+   "next": [
+    "verify-email"
+   ]
+  },
+  {
+   "id": "verify-email",
+   "route": "/(public)/verify-email",
+   "file": "VerifyEmailScreen",
+   "copy": [
+    "Verify Your Email",
+    "We've sent a 6-digit verification code to …",
+    "Verify Email / Verifying...",
+    "Resend in N / Resend Code / Sending...",
+    "Success: Your email has been verified successfully!"
+   ],
+   "next": [
+    "home",
+    "reset-password"
+   ]
+  },
+  {
+   "id": "reset-password",
+   "route": "/(public)/reset-password",
+   "file": "ResetPasswordScreen",
+   "copy": [
+    "Reset Password",
+    "Enter your new password below",
+    "New Password",
+    "Confirm New Password",
+    "Resetting..."
+   ]
+  },
+  {
+   "id": "currency-selection",
+   "route": "/(auth)/currency-selection",
+   "file": "CurrencySelection",
+   "copy": [
+    "Choose Your Currency / Change Currency",
+    "Select your preferred currency to track your expenses",
+    "Search currencies...",
+    "Continue / Save Changes"
+   ],
+   "next": [
+    "home"
+   ]
+  },
+  {
+   "id": "home",
+   "route": "/(auth)/home",
+   "file": "Home",
+   "components": [
+    "header (greeting + plan badge FREE/PRO + voice usage badge N/M)",
+    "currency button",
+    "reports button",
+    "settings button",
+    "ExpensesSummary (My expenses this month / Budget / Set budget / On Track|Budget Met|Over Budget)",
+    "MonthSelector",
+    "Recent Expenses list + Add Expense button",
+    "ExpenseItem (swipe left to reveal delete: translateX + opacity withTiming 150ms)",
+    "VoiceRecordButton (pulse Animated.timing opacity→0.3, 200ms; free limit 30 s)",
+    "offline banner 'No internet connection'"
+   ],
+   "states": [
+    "empty",
+    "list",
+    "recording",
+    "processing: LoadingOverlay 'Processing your expense...'",
+    "voice limit alert 'Voice Note Limit Reached'",
+    "ConfettiOverlay on goal/budget success"
+   ]
+  },
+  {
+   "id": "add-expense",
+   "route": "/(auth)/add-expense",
+   "file": "AddExpenseScreen",
+   "copy": [
+    "Add Expense",
+    "Description — What did you spend on?",
+    "Amount 0.00",
+    "Hint (optional)",
+    "Category — Select Category"
+   ],
+   "modals": [
+    "CategoryModal (Search categories... / No categories found)"
+   ]
+  },
+  {
+   "id": "edit-expense",
+   "route": "modal",
+   "file": "EditExpenseModal",
+   "copy": [
+    "Edit Expense",
+    "Description",
+    "Amount",
+    "Category",
+    "Date",
+    "Save / Saving..."
+   ]
+  },
+  {
+   "id": "budget-modal",
+   "route": "modal",
+   "file": "ExpensesSummary",
+   "copy": [
+    "Set Budget",
+    "How much do you want to spend",
+    "Cancel / Save",
+    "Invalid Budget: Budget cannot be negative"
+   ]
+  },
+  {
+   "id": "settings",
+   "route": "/(auth)/settings",
+   "file": "SettingsScreen",
+   "copy": [
+    "Settings",
+    "Say Pro Unlimited — Unlimited voice notes. Flexible and forever.",
+    "Go Pro",
+    "Account: Email / Plan / Voice Records Left",
+    "About App: Privacy Policy / FAQ",
+    "Actions: Sign Out / Delete Account"
+   ],
+   "alerts": [
+    "Sign out confirm",
+    "Delete account confirm → 'Account Deleted'"
+   ]
+  },
+  {
+   "id": "paywall",
+   "route": "modal",
+   "file": "CustomPaywall",
+   "copy": [
+    "Say PRO — Unlock unlimited potential",
+    "Unlimited voice entries per month",
+    "Unlimited weekly report insights",
+    "Track all subscriptions (SOON)",
+    "Priority support",
+    "MONTHLY $4.99 / ANNUAL $39.99",
+    "START SUBSCRIPTION",
+    "Welcome to Pro! 🎉"
+   ]
+  },
+  {
+   "id": "weekly-reports",
+   "route": "/(auth)/weekly-reports",
+   "file": "WeeklyReportsScreen",
+   "copy": [
+    "Weekly Reports",
+    "Your Weekly Insights",
+    "Latest / Locked / Pro Only / Coming Soon",
+    "Unlock All Reports — Upgrade Now",
+    "No Reports Yet"
+   ],
+   "modals": [
+    "ReportCookingModal (fade): 'Your Report is Cooking! 👨‍🍳'  'Got it! 👍'"
+   ]
+  },
+  {
+   "id": "weekly-report-stories",
+   "route": "modal fullScreen (animationType slide)",
+   "file": "WeeklyReportsStories",
+   "stories": [
+    "TotalExpenses",
+    "HighestCategory",
+    "CategorizedSpending (progress bars)",
+    "SpendingTrends (This Week vs Last Week)",
+    "BudgetTracking (Spent / Budget / Remaining, % used)"
+   ],
+   "notes": "Instagram-style stories مع شريط تقدم أعلى الشاشة؛ ألوان #4ECDC4 #FF6B6B #FFA726 #FFD700"
+  },
+  {
+   "id": "not-found",
+   "route": "+not-found",
+   "file": "NotFoundScreen",
+   "copy": [
+    "Oops!",
+    "This screen does not exist.",
+    "Go to home screen!"
+   ]
+  }
+ ],
+ "transitions": [
+  {
+   "from": "onboarding",
+   "to": "signin",
+   "type": "Stack push (headerShown:false) — انتقال المنصّة الافتراضي على أندرويد"
+  },
+  {
+   "from": "signin",
+   "to": "signup",
+   "type": "Stack push/replace"
+  },
+  {
+   "from": "signup|signin(recovery)",
+   "to": "verify-email",
+   "type": "Stack push مع params {email,type}"
+  },
+  {
+   "from": "verify-email",
+   "to": "home | reset-password",
+   "type": "router.replace"
+  },
+  {
+   "from": "any (auth)",
+   "to": "currency-selection",
+   "type": "Stack push"
+  },
+  {
+   "from": "home",
+   "to": "add-expense | settings | weekly-reports",
+   "type": "Stack push"
+  },
+  {
+   "from": "home",
+   "to": "edit-expense | budget | category",
+   "type": "Modal (slide من الأسفل / fade حسب المكوّن)"
+  },
+  {
+   "from": "weekly-reports",
+   "to": "stories",
+   "type": "Modal fullScreen, animationType='slide'"
+  },
+  {
+   "from": "weekly-reports",
+   "to": "report-cooking",
+   "type": "Transparent Modal, animationType='fade'"
+  },
+  {
+   "from": "loading overlay",
+   "to": "—",
+   "type": "Modal transparent, animationType='fade', backdrop rgba(0,0,0,.5)"
+  },
+  {
+   "from": "expense item",
+   "to": "delete",
+   "type": "Swipe: transform translateX + opacity (withTiming, 150ms) — Reanimated"
+  },
+  {
+   "from": "voice button",
+   "to": "recording",
+   "type": "Pulse: Animated.timing toValue 0.3, duration 200ms (loop)"
+  }
+ ]
+}
